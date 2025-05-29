@@ -1,0 +1,10 @@
+Zadaniem jest zaimplementowanie systemu zarządzania strukturą organizacyjną firmy, który wykorzystuje wzorzec Kompozyt. W firmie występują zarówno pojedynczy pracownicy, jak i działy składające się z wielu pracowników lub poddziałów. System powinien umożliwiać jednolite zarządzanie zarówno pojedynczymi osobami, jak i grupami pracowników. Należy:
+
+stworzyć interfejs wspólny dla wszystkich elementów struktury - klasa Pracownik(component)
+stworzyć klasa Osoba(leaf), która dziedziczy po Pracownik, przechowuje dane(imie,nazwisko,stanowisko)
+stworzyć klasa Dział(composit), która dziedziczy po Pracownik(może zawierać osoby jak i działy)
+zaimplementować metody pozwalające na dodawanie i usuwanie pracowników oraz metodę wyświetlające ich dane
+w funkcji main() utworzyć hierarcię firmy:
+kilku pracowników
+jeden dział, zawierający kilka osób
+dział nadrzędny, zawierający inne działy i osoby

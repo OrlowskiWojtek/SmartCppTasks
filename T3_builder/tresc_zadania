@@ -1,0 +1,11 @@
+Napisz program w C++ wykorzystujący wzorzec projektowy Builder do tworzenia postaci w grze RPG. 
+
+Każda postać powinna mieć:
+
+Imię
+Klasę postaci
+Siłę
+Zręczność
+Inteligencję
+Broń (opcjonalnie)
+Stwórz Director, który będzie posiadał metody do budowy różnych typów postaci (np. Mag, Wojownik, Bard, Łowca). Następnie wyświetl szczegóły postaci w main().

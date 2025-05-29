@@ -1,0 +1,5 @@
+Napisz program, który wczyta liczbę całkowitą dodatnią, a następnie:
+
+Użyje std::bitset do zapisania jej reprezentacji binarnej.
+Przechowa kolejne bity na stosie std::stack.
+Odtworzy liczbę binarną w odwrotnej kolejności, a następnie wypisze jej wartość dziesietną
